@@ -3,7 +3,7 @@ from flask import Flask
 from flask_cors import CORS
 from flask_restx import Api
 
-PORT = 5001
+PORT = 5000
 app = Flask(__name__)
 
 CORS(app)
